@@ -227,7 +227,7 @@ export function init(container) {
       if (!urlMatch) throw new Error('No PDF URL in response: ' + text);
 
       // Rewrite internal URL to go through the public domain
-      const pdfUrl = urlMatch[0].replace(/^http://[^/]+/, 'https://pdf.recepguzel.com');
+      const pdfUrl = urlMatch[0].replace(/^https?:\/\/[^/]+/, 'https://pdf.recepguzel.com');
 
       const a = document.createElement('a');
       a.href = pdfUrl;
