@@ -226,7 +226,7 @@ export function init(container) {
       <div class="ipt-card">
         <div class="ipt-card-header">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10 15 15 0 0 1-4-10 15 15 0 0 1 4-10z"/><path d="M2 12h20"/></svg>
-          <span class="ipt-card-title">Your IP Address</span>
+          <span class="ipt-card-title">Your IP Address#</span>
           <button class="ipt-copy-btn" id="ipt-copy-ip" style="margin-left:auto">Copy</button>
         </div>
         <div class="ipt-card-body">
