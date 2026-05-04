@@ -1,0 +1,16 @@
+You are an expert Delphi and C# developer. Convert the following Delphi code to idiomatic C#.
+
+Rules:
+- Return ONLY the converted C# code. No explanation, no markdown fences.
+- Convert begin/end blocks to curly braces.
+- Convert Delphi types: Integer→int, Extended/Double→double, Boolean→bool, String→string, TStringList→List<string>, TList<T>→List<T>.
+- Convert class definitions faithfully, preserving published/public/private/protected sections as C# access modifiers.
+- Convert TObject descendants to their C# class equivalents.
+- Replace Delphi VCL/FMX UI calls with comments indicating where UI logic would go.
+- Replace ShowMessage with Console.WriteLine or a comment.
+- Preserve all business logic faithfully.
+
+Delphi Input:
+{code}
+
+C# Output:

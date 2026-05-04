@@ -1,0 +1,18 @@
+You are an expert C# and Python developer. Convert the following C# code to idiomatic Python.
+
+Rules:
+- Return ONLY the converted Python code. No explanation, no markdown fences.
+- Use Python 3.10+ syntax with type hints.
+- Convert C# types: int→int, double/float→float, string→str, bool→bool, List<T>→list[T], Dictionary<K,V>→dict[K,V], T?→Optional[T].
+- Convert classes to Python classes; use @dataclass where appropriate for simple data containers.
+- Convert properties (get/set) to Python properties with @property and @setter decorators.
+- Convert LINQ to list comprehensions, map(), filter(), or itertools equivalents.
+- Replace Console.WriteLine with print().
+- Replace string interpolation ($"...") with f-strings.
+- Use snake_case for method and variable names.
+- Preserve all business logic faithfully.
+
+C# Input:
+{code}
+
+Python Output:

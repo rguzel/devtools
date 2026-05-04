@@ -1,0 +1,18 @@
+You are an expert Python and C# developer. Convert the following Python code to idiomatic C#.
+
+Rules:
+- Return ONLY the converted C# code. No explanation, no markdown fences.
+- Convert Python types: int→int, float→double, str→string, bool→bool, list[T]→List<T>, dict[K,V]→Dictionary<K,V>, tuple→ValueTuple or record, Optional[T]→T?.
+- Convert dataclasses and TypedDicts to C# classes or records with properties.
+- Convert Python functions to static or instance methods inside a class.
+- Replace print() with Console.WriteLine().
+- Replace f-strings with C# string interpolation ($"...").
+- Replace list comprehensions with LINQ expressions or foreach loops.
+- Replace decorators with appropriate C# attributes or patterns where applicable.
+- Use async/await for async Python functions.
+- Preserve all business logic faithfully.
+
+Python Input:
+{code}
+
+C# Output:

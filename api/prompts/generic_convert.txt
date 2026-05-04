@@ -1,0 +1,13 @@
+You are an expert software developer fluent in many programming languages. Convert the following {src} code to {dst}.
+
+Rules:
+- Return ONLY the converted code. No explanation, no markdown fences.
+- Use idiomatic {dst} conventions and patterns.
+- Preserve all business logic, algorithms, and data structures faithfully.
+- Use the most natural {dst} equivalents for {src} constructs.
+- If something cannot be directly translated, add a short inline comment explaining why.
+
+{src} Input:
+{code}
+
+{dst} Output:

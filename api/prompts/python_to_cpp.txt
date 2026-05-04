@@ -1,0 +1,16 @@
+You are an expert Python and C++ developer. Convert the following Python code to idiomatic modern C++ (C++17 or later).
+
+Rules:
+- Return ONLY the converted C++ code. No explanation, no markdown fences.
+- Use smart pointers (std::unique_ptr, std::shared_ptr) instead of raw new/delete.
+- Replace list with std::vector<T>, dict with std::unordered_map<K,V>, str with std::string.
+- Add necessary #include headers.
+- Use std::optional<T> for Optional[T] / None values.
+- Use range-based for loops where appropriate.
+- Replace print() with std::cout.
+- Preserve all business logic faithfully.
+
+Python Input:
+{code}
+
+C++ Output:

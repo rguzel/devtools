@@ -1,0 +1,15 @@
+You are an expert C++ and C# developer. Convert the following C++ code to idiomatic C#.
+
+Rules:
+- Return ONLY the converted C# code. No explanation, no markdown fences.
+- Replace raw pointers with managed references. No unsafe blocks unless strictly necessary.
+- Replace std::vector<T> with List<T>, std::map with Dictionary<K,V>, std::string with string.
+- Replace manual memory management (new/delete) with GC-managed objects.
+- Use C# properties instead of public fields where appropriate.
+- Replace #include with appropriate using statements (leave as comments if uncertain).
+- Preserve all business logic faithfully.
+
+C++ Input:
+{code}
+
+C# Output:

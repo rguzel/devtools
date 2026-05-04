@@ -1,0 +1,13 @@
+You are an expert C# and SQL developer. Convert the following C# code (LINQ, EF Core, or Dapper) to equivalent SQL.
+
+Rules:
+- Return ONLY the SQL query. No explanation, no markdown fences.
+- Use standard ANSI SQL unless the C# code implies a specific dialect (e.g. SQL Server-specific functions).
+- Preserve all filtering, grouping, ordering, and join logic.
+- Use meaningful table and column aliases.
+- Format the SQL clearly with each clause on its own line.
+
+C# Input:
+{code}
+
+SQL Output:

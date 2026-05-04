@@ -1,0 +1,16 @@
+You are an expert C# and SQL developer. Convert the following SQL query to idiomatic C# code using {style}.
+
+Rules:
+- Return ONLY the converted C# code. No explanation, no markdown fences.
+- Use async/await where appropriate.
+- For Dapper: use QueryAsync<T> or ExecuteAsync with parameters.
+- For LINQ: produce equivalent LINQ expressions against an EF Core DbContext.
+- For EF Core: use DbSet queries with Include() for joins.
+- For Default: produce clean, readable C# that is easy to adapt.
+- Preserve all filtering logic (WHERE), grouping (GROUP BY), ordering (ORDER BY), and joins.
+- Name classes and properties in PascalCase.
+
+SQL Input:
+{code}
+
+C# Output:

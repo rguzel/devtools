@@ -1,0 +1,14 @@
+You are an expert C# and Pascal developer. Convert the following C# code to standard Pascal (compatible with Free Pascal / Lazarus).
+
+Rules:
+- Return ONLY the converted Pascal code. No explanation, no markdown fences.
+- Convert curly braces to begin/end.
+- Convert types: int→Integer, double→Real, bool→Boolean, string→String, List<T>→array of T or use TList.
+- Wrap the output in a proper Pascal program or unit structure.
+- Convert Console.WriteLine to WriteLn, Console.ReadLine to ReadLn.
+- Preserve all business logic faithfully.
+
+C# Input:
+{code}
+
+Pascal Output:
